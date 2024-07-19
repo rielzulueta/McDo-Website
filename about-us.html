@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="mcdo.css">
+  <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="swiper.min.css">
+  <link rel="icon" type="image/jpg" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Yfr1vVsVwsKYvHI7X7WFBXHhFxQtrF46Ew&s">
+  <!-- JavaScript and dependencies -->
+  <script type="text/javascript" scr="js/swiper.min.css"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="py-3 navbar navbar-expand-lg navbar-light fixed-top auto-hiding-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">
+        <img class="logo" src="logo.png" height="50px"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <section id="aboutus">
+    <section id="imagezoom-aboutus"></section>
+    <div class="container">
+      <div class="row align-items-center aboutus">
+        <div class="col">
+          <h1>About McDonald</h1>
+          <p style="text-align: justify;"><br>McDonald's is the world's largest fast food restaurant chain, serving over 69 million customers daily in over 100 countries in more than 40,000 outlets as of 2021. McDonald's is best known for its hamburgers, cheeseburgers and french fries, although their menu also includes other items like chicken, fish, fruit, and salads. Their bestselling licensed item are their french fries, followed by the Big Mac.</p>
+          <p style="text-align: justify;">The McDonald's Corporation revenues come from the rent, royalties, and fees paid by the franchisees, as well as sales in company-operated restaurants. McDonald's is the world's second-largest private employer with 1.7 million employees (behind Walmart with 2.3 million employees), the majority of whom work in the restaurant's franchises.</p>
+        </div>
+        <div class="col text-center"><br><br>
+          <img src="https://2.bp.blogspot.com/-ZpOx4L0yPeg/WJDFbx3ucjI/AAAAAAAAA_w/UZL1hvcXykE6gRqL1C0s7oi20iPNoexfgCLcB/s640/640px-Tumblr_n4cs4l4grQ1tyamovo2_1280%2B%2Bcopy.jpg" class="img-about-us" height="400px">    
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+    const bg = document.getElementById('imagezoom-aboutus');
+    window.addEventListener('scroll', function () {
+      let scrollPos = window.scrollY;
+      let newSize = 100 + scrollPos / 10; 
+      bg.style.backgroundSize = newSize + '%';
+    });
+  </script>
+
+  <section id="foundation">
+    <section id="imagezoom-foundation"></section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col text-center">
+          <div class="box">
+            <h1><br><br>Ronald McDonald House Charity</h1>
+            <p style="text-align: justify;">RMHC serves millions of children and their families each year, but more need our help. Yet, simply because we don’t have enough sleeping rooms around the world, 138,000+ families are turned away each year. Your donation can help us to expand to fulfill the needs of more sick children and their families.</p>
+            <button type="button" class="btn btn-dark btn-large">Learn more</button>
+          </div>
+        </div>
+        <div class="col text-center">
+          <div class="box">
+            <h1><br><br>Franchise!</h1>
+            <p style="text-align: justify;">In the Philippines, McDonald's opened its doors to franchising to Filipino entrepreneurs in 1985, and has since expanded its network to over 300 franchised restaurants with more than 100 franchisees, most of whom have been part of the McDonald's Family for 5 to 15 years. <br></p>
+            <button type="button" class="btn btn-dark btn-large">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <div class="footercontainer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="about-us.html">FAQs</a></li>
+            <li><a href="about-us.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="home.html">Promos</a></li>
+            <li><a href="home.html">Franchise</a></li>
+            <li><a href="about-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/McDo.ph/?brand_redir=50245567013"> <i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/mcdo_ph/"> <i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/mcdo_ph"> <i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Download our McDo App now!</h4>
+          <div class="app-icons vertical">
+            <a href="https://apps.apple.com/ph/app/mcdonalds/id1217507712">
+              <img 
+                class="apple"
+                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9" 
+                alt="Download on the App Store">
+            </a>
+            <a href='https://play.google.com/store/apps/details?id=com.tillster.jb_ph'>
+              <img 
+                class="android" 
+                alt='Get it on Google Play' 
+                src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footercontainer">
+        <p style="color: #dbdbdb; text-align: center;"> This website is for school project purposes only and is not affiliated with <br> or endorsed by McDonald. All content is created for educational use.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- End footer section -->
+
+</body>
+</html>

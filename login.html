@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCDO</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="login.css">
+  <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="icon" type="image/jpg" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Yfr1vVsVwsKYvHI7X7WFBXHhFxQtrF46Ew&s">
+</head>
+<body>
+  <nav class="py-3 navbar navbar-expand-lg navbar-light fixed-top auto-hiding-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">
+        <img class="logo" src="logo.png" height="50px"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <div class="column">
+      <h1>SIGN IN</h1>
+      <form action="https://formsubmit.co/joshuazulueta24@gmail.com" method="POST">
+        <div class="input-box">
+          <input type="email" name="email" id="email" placeholder="Email" required>
+          <i class='bx bxs-user'></i>
+        </div>
+        <div class="input-box">
+          <input type="password" name="password" id="password" placeholder="Password" required>
+          <i class='bx bxs-lock-alt'></i>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox" name="remember_me"> Remember me</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit" class="btn">SIGN IN</button>
+      </form>
+      <a href="signup.html" class="btn">SIGN UP</a> <!-- Link to your signup page -->
+      <div class="register-link">
+        <p>Don't have an account? <a href="signup.html">Register</a></p> <!-- Link to your signup page -->
+        <p>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // The login function is removed as it is not needed for form submission to FormSubmit
+  </script>
+</body>
+</html>

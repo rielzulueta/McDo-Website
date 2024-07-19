@@ -1,0 +1,568 @@
+
+body {
+    display: block;
+    overflow-x: hidden;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e67d50 !important;
+  }
+  
+  nav ul li a {
+    color: #e6ee05 !important;
+    font-size: 18px;
+    margin: auto 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 600;
+  }
+  
+  nav ul li a:hover {
+    color: #000000 !important;
+  }
+  
+  .navbar-brand:hover {
+    color: #c2a337 !important;
+  }
+  /* End of Navigation */
+  /* Chickenjoy Bida ang saya*/
+  #imagezoom-chickenjoy {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("https://plus.unsplash.com/premium_photo-1683655058728-415f4f2674bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWNkb25hbGRzfGVufDB8fDB8fHww");
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    transition: background-size 0.01s ease;
+  }
+  
+  .chickenjoy-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  .chickenjoy-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 22px;
+  }
+  .chickenjoy-button:hover {
+    background-color: #535353;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    #imagezoom-chickenjoy {
+      background-size: cover; 
+      background-attachment: scroll; 
+    }
+  
+    .chickenjoy-box h1 {
+      font-size: 50px; 
+    }
+  
+    .chickenjoy-box p {
+      font-size: 20px; 
+    }
+  
+    .chickenjoy-button {
+      font-size: 18px; 
+    }
+  }
+  /* End of Chickenjoy Bida ang saya*/
+  
+  #hero {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  #hero h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #e67d50;
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  p {
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  #hero p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  #hero button {
+    max-width: 50%;
+    border-radius: 50px !important;
+  }
+  
+  #hero .img-fluid {
+    max-width: 100%;
+    height: 350px;
+    left: 10%;
+  }
+  
+  #hero .card {
+    border: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  #hero .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  #menu .menu {
+    margin-bottom: 50px; 
+  }
+  
+  /*About us */
+  #aboutus .aboutus {
+    margin-bottom: 50px;  
+  }
+  
+  .bg {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 5px;
+  background: #fff;
+  height: 200px;
+  align-items: center;
+  }
+  
+  .img-about-us {
+  max-height: 100;
+  }
+  
+  @media (min-width: 700px) {
+  #aboutus .col {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+  }
+  }
+  
+  #imagezoom-foundation {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background: url("https://thebusinessofesports.com/wp-content/uploads/2022/03/rmhc-logojpg-b251ada3f0da5d69.jpg");
+  background-size: 100%; 
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-size 0.01s ease; 
+  }
+  
+  #foundation .box {
+  max-width: 600px; 
+  margin: 0 auto; 
+  margin-bottom: 100px;
+  }
+  
+  @media (min-width: 768px) {
+  #foundation .box {
+    text-align: left; 
+  }
+  }
+  
+  /*End of About us */
+  
+  .menubg {
+  background-image: url("https://images.unsplash.com/photo-1616696269042-7a27b57a6808?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1jZG9uYWxkc3xlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  .footercontainer {
+  max-width: 1170px;
+  margin: auto;
+  }
+  
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  ul {
+  list-style: none;
+  
+  }
+  
+  #imagezoom-aboutus {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("https://sgp1.digitaloceanspaces.com/tz-mag-ph/wp-content/uploads/2023/01/050501015151/McKinley-West-768x480.jpg");
+  background-size: 100%; 
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-size 0.01s ease; 
+  }
+  /* Yellow bg chicken */
+  #imagezoom-chicken {
+    position: relative;
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1587361144243-03f7925381ca?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 80%;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 0;
+    background-attachment: fixed;
+    transition: background-size 0.01s ease; 
+  }
+  
+  #imagezoom-chicken h1 {
+    font-size: 42px;
+    color: #fff;
+  }
+  .cardbundle {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 5px; 
+  }
+  /* End of Yellow bg chicken */
+  
+  /* Burger */
+  #imagezoom-burger {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: url("https://images.unsplash.com/photo-1606720335177-3d04e70fb13b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 80%; 
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 0;
+    background-attachment: fixed;
+    transition: background-size 0.01s ease; 
+  }
+  .cardpromotion {
+    background-color: #221f0c4a; 
+    border: none;
+    padding: 20px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 0px;
+  }
+  
+  .card-body-promotion {
+    color: #fff;
+    flex: 1; 
+  }
+  
+  .anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.8s forwards; 
+  }
+  
+  @keyframes moveup {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  /* End of Burger */
+  
+  .promotion-img {
+    height: 400px;
+    width: auto; 
+    object-fit: cover; 
+  }
+  
+  .promotion-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  
+  .swiper-slide {
+  width: 300px !important; 
+  height: auto; 
+  }
+  
+  .slider-box {
+  margin: 20px;
+  position: relative;
+  width: calc(115% - 40px);
+  height: 100%; 
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 0.04);
+  box-sizing: border-box;
+  padding: 10px;
+  }
+  
+  .img-box {
+  height: 200px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  }
+  
+  .time {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fda712;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  }
+  
+  .detail {
+  font-size: 14px;
+  line-height: 20px;
+  }
+  
+  .cart {
+  height: 45px;
+  background-color: #e80000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 5px 5px;
+  }
+  
+  .cart a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  }
+  
+  .slider-box:hover {
+  box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.4);
+  }
+  
+  .slider-box:hover .img-box img {
+  transform: scale(1.05);
+  }
+  
+  .cart:hover {
+  background-color: #fe9048;
+  transform: scale(1.1);
+  box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.4);
+  }
+  
+  .card-link {
+      text-decoration: none; 
+      color: inherit; 
+      display: block; 
+  }
+  
+  .card-link:hover .card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #fe9048;
+  }
+  
+  #fixed-home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 90px;
+    background-color: #f91500;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    border: none; 
+    outline: none; 
+    box-shadow: none; 
+    z-index: 1000;
+  }
+  
+  #fixed-home-button:hover {
+    background-color: #ff4b3a; 
+    color: #000000;
+  }
+  
+  /* Footer */
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  .footer {
+  padding: 70px 0;
+  background: url("jollibee-peek.png") no-repeat center center;
+  background-size: cover;
+  }
+  
+  .footercontainer {
+  max-width: 1170px;
+  margin: auto;
+  }
+  
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  ul {
+  list-style: none;
+  }
+  
+  .footer-col {
+  width: 25%;
+  padding: 0 15px;
+  }
+  
+  .footer-col h4 {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+  font-family: 'Varela Round', sans-serif;
+  }
+  
+  .footer-col h4::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #fba409;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+  }
+  
+  .footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+  font-family: 'Varela Round', sans-serif;
+  }
+  
+  .footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+  }
+  
+  .footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  }
+  
+  .footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+  }
+  
+  /* Responsive */
+  @media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  }
+  
+  @media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+  }
+  .app-icons {
+  display: flex;
+  align-items: center;
+  }
+  .vertical {
+  width: 300px;
+  flex-direction: column;
+  }
+  
+  .android {
+  width: 150px;
+  }
+  .apple {
+  width: 164px;
+  }
+  
+  /* End of Footer */
+  
